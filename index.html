@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Js-partie6-exo6</title>
+    </head>
+    <body>
+        <h2>JavaScript exo 6: les boucles</h2>
+        <script>
+            var firstNumber = 8;
+            var secondNumber = 2;
+            while (firstNumber / secondNumber > 1) {
+                var p = document.createElement("P");
+                p.innerHTML = firstNumber / secondNumber;
+                document.body.appendChild(p);
+                firstNumber = firstNumber / secondNumber;
+            } 
+        </script>
+    </body>
+</html>
